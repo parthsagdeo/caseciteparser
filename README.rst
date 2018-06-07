@@ -5,7 +5,7 @@ A parser for legal case citations.
 
 Installation
 =====================
-You can install `caseciteparser` by running:
+You can install ``caseciteparser`` by running:
 
 ::
 
@@ -14,17 +14,17 @@ You can install `caseciteparser` by running:
 Usage
 =====================
 
-There are two user-facing functions in `caseciteparser`: `parse_tokens(words)` and `parse_string(string)`.
+There are two user-facing functions in ``caseciteparser``: ``parse_tokens(words)`` and ``parse_string(string)``.
 
-`parse_tokens(words)` parses a list of whitespace-delimited tokens and returns a list of dicts, where each item in the list corresponds to a legal case citation found in the list of word tokens.
+``parse_tokens(words)`` parses a list of whitespace-delimited tokens and returns a list of dicts, where each item in the list corresponds to a legal case citation found in the list of word tokens.
  
-`parse_string(string)` parses a string by calling `parse_tokens(string.split())`.
+``parse_string(string)`` parses a string by calling ``parse_tokens(string.split())``.
  
 
 Examples
 =====================
 
-Importing `caseciteparser` (and `pprint` for readability): ::
+Importing ``caseciteparser`` (and ``pprint`` for readability): ::
 
 	>>> from caseciteparser import parse_string
 	>>> from pprint import pprint
@@ -109,8 +109,8 @@ Parsing a sentence with multiple citations: ::
 License/Attribution
 =====================
 
-This project is licensed under the GNU Affero General Public License, with the additional condition that you provide attribution to this project if you use it for academic research that results in the publication of a paper. See the `LICENSE` file for the actual terms of the license.
+This project is licensed under the GNU Affero General Public License, with the additional condition that you provide attribution to this project if you use it for academic research that results in the publication of a paper. See the ``LICENSE`` file for the actual terms of the license.
 	  
 Contact
 =====================
-Feel free to send me a message if you have any questions, or comments, or even to let me know how you're using `caseciteparser`! I'm really interested to see what people are doing with automated analysis of caselaw!
+Feel free to send me a message if you have any questions, or comments, or even to let me know how you're using ``caseciteparser``! I'm really interested to see what people are doing with automated analysis of caselaw!
